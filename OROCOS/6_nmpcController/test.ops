@@ -1,0 +1,10 @@
+#!/usr/bin/env deployer
+
+#Import libraries
+import("nmpcController")
+ 
+#Create components
+loadComponent("nmpcController","NmpcController")
+ 
+nmpcController.configure()
+nmpcController.start()

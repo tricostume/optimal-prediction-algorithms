@@ -1,0 +1,9 @@
+ifdef CAROUSEL2
+ifdef PC
+
+include_rules
+: mhEstimator.cpp  |> !cxx_orocos |>
+: *.o export_MHE/acado_qpoases_interface.o export_MHE/acado_solver.o export_MHE/acado_integrator.o export_MHE/acado_auxiliary_functions.o |> !ld_orocos export_MHE/qpoases/SRC/*.o |> 
+
+endif
+endif

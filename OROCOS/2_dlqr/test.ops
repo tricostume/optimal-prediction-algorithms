@@ -1,0 +1,10 @@
+#!/usr/bin/env deployer
+
+#Import libraries
+import("LQR")
+ 
+#Create components
+loadComponent("LQR","LQR")
+ 
+LQR.configure()
+LQR.start()

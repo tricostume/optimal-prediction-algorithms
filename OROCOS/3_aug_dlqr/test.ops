@@ -1,0 +1,10 @@
+#!/usr/bin/env deployer
+
+#Import libraries
+import("lqrRegulatorss")
+ 
+#Create components
+loadComponent("lqrRegulatorss","LqrRegulatorss")
+ 
+lqrRegulatorss.configure()
+lqrRegulatorss.start()

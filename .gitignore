@@ -1,0 +1,15 @@
+*.png
+*.nc
+*.log
+*.mexw64
+*.txt
+/Matlab/14_nmpc_mhe/helix_mhe/combination/export_MHE
+/Matlab/14_nmpc_mhe/helix_mhe/combination/export_MPC
+/Matlab/14_nmpc_mhe/helix_mhe/combination/export_SIM
+/Matlab/14_nmpc_mhe/mhereal/export_MHE
+/Matlab/14_nmpc_mhe/mpc/export_MPC
+/Matlab/14_nmpc_mhe/mpc/export_SIM
+*.o
+/OROCOS/5_mhEstimator/export_MHE
+/OROCOS/6_nmpcController/export_MPC
+*.asv
