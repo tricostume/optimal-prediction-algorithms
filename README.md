@@ -1,6 +1,6 @@
 # Non Linear Model Predictive Control  and State Estimation of Tethered Flying Objects
 
-![alt text](carousel_now.png)
+![](carousel_now.png =250x)
 
 # Motivation
 Could it be possible to move a flying object over a predefined trajectory between two
